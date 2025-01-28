@@ -80,7 +80,7 @@ function App() {
     const loadModel = async () => {
       try {
         // Chemin relatif vers votre modèle ONNX
-        ort.env.wasm.wasmPaths = '/public/';
+        ort.env.wasm.wasmPaths = '/';
         ort.env.wasm.simd = false;
         ort.env.wasm.numThreads = 1;
       } catch {
