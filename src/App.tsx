@@ -93,6 +93,7 @@ function App() {
   return (
     <>
       <h1>CIFAR10 AI</h1>
+      <h3>By LAYAN Jason</h3>
       <h3>Output:</h3>
       <p>Réponses possibles :</p>
       <p>
@@ -109,6 +110,7 @@ function App() {
       <input type="file" accept="image/*" onChange={loadImage} />
 /* {loading && <p>Chargement...</p>}
 <pre>{JSON.stringify(output, null, 2)}</pre>
+
 </>
 )
 }
